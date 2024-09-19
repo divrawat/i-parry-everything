@@ -10,6 +10,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaRedditAlien } from "react-icons/fa";
+import Popup from '@/components/Popup';
 export const runtime = 'experimental-edge';
 
 export default function Chapter({ chapterNumber, imageUrls, totalChapters, params, errorcode }) {
@@ -241,6 +242,7 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
         <>
             {head()}
             <Navbar />
+            <Popup />
             <article>
                 <h1 className="text-3xl font-bold text-center text-[white] px-5 pt-5 md:my-5">{`${MANGA_NAME} Chapter ${chapterNumber}`}</h1>
 

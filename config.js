@@ -4,6 +4,7 @@ export const DOMAIN = 'https://iparryeverything.site';
 export const DOMAIN_NAME = 'iparryeverything.site';
 
 export const IMAGES_SUBDOMAIN = 'https://images.mangachimp.com/i-parry-everything';
+export const IMAGES_SUBDOMAIN_LOGO = 'https://images.mangachimp.com';
 
 // export const MANGA_DESCRIPTION0 = `<a href="${DOMAIN}"><u>Vinland Saga</u></a>`;
 
