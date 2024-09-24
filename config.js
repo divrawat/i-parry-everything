@@ -1,5 +1,5 @@
 // export const DOMAIN = 'http://localhost:3000';
-export const DOMAIN = 'https://iparryeverything.site';
+export const DOMAIN = 'https://ww1.iparryeverything.site';
 
 export const DOMAIN_NAME = 'iparryeverything.site';
 
